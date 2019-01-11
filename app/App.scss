@@ -1,3 +1,15 @@
-.page {
+.app {
+  position: relative;
+  cursor: none;
+  height: 100vh;
+  width: 100vw;
   
+  .player {
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
 }

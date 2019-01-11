@@ -4,7 +4,10 @@ import HtmlWebpackPlugin from 'html-webpack-plugin'
 export default {
   mode: 'production',
   entry: {
-    app: path.join(__dirname, 'app', 'main.js')
+    app: [
+      path.join(__dirname, 'app', 'main.js'),
+      path.join(__dirname, 'app', 'main.scss')
+    ]
   },
   output: {
     path: path.join(__dirname, 'dist'),
