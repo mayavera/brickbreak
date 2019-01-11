@@ -1,0 +1,16 @@
+{
+  "name": "brickbreak",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mayavera/brickbreak.git"
+  },
+  "description": "Brickbreak in React",
+  "main": "index.js",
+  "keywords": [
+    "brickbreak",
+    "react"
+  ],
+  "author": "Maya Vera <maya@mayavera.me> (https://mayavera.me/)",
+  "license": "MIT"
+}
