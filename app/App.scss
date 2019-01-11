@@ -1,9 +1,18 @@
 .app {
   position: relative;
   cursor: none;
-  height: 100vh;
+  color: blue;
   width: 100vw;
+  height: 100vh;
   
+  .ball {
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-radius: 100%;
+  }
+
   .player {
     height: 50px;
     width: 200px;
